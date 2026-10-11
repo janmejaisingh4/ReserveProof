@@ -1,9 +1,11 @@
+[toolchain]
+
 [features]
-seeds = false
+resolution = true
 skip-lint = false
 
 [programs.localnet]
-reserveproof = "FjEHMifJ2YYm5sH2nXr7kQu7tUYVrGwJmeFS8oY5yVME"
+reserveproof = "6YDG8p3CYpNVxNqZjuqPLnuQ5acRg3tiAbx7Z4NgcWRJ"
 
 [registry]
 url = "https://github.com/coral-xyz/anchor"

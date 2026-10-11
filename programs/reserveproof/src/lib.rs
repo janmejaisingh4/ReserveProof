@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("FjEHMifJ2YYm5sH2nXr7kQu7tUYVrGwJmeFS8oY5yVME");
+declare_id!("6YDG8p3CYpNVxNqZjuqPLnuQ5acRg3tiAbx7Z4NgcWRJ");
 
 const MAX_ID_LEN: usize = 64;
 const ID_ALLOWED_PUNCTUATION: &[u8] = b"._:-";
