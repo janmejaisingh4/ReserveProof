@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #020817;
+  --foreground: #e2e8f0;
 }
 
 @theme inline {
@@ -12,15 +12,24 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top, rgba(59, 130, 246, 0.15), transparent 30%),
+    linear-gradient(180deg, #020817, #0f172a 45%, #111827 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card-surface {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  box-shadow: 0 24px 45px rgba(15, 23, 42, 0.35);
 }

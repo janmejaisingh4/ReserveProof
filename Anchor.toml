@@ -1,0 +1,19 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+reserveproof = "FjEHMifJ2YYm5sH2nXr7kQu7tUYVrGwJmeFS8oY5yVME"
+
+[registry]
+url = "https://github.com/coral-xyz/anchor"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[workspace]
+members = ["programs/reserveproof"]
+
+[scripts]
+test = "cargo test --workspace"
